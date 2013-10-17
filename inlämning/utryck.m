@@ -1,0 +1,16 @@
+% a)
+(1 + 2 * (3 + 4)) / 5
+% b)
+abs(3-4i)
+% c)
+exp((1 + sqrt(5)) / 2)
+% d)
+nthroot(16, 4) - nthroot(27, 3)
+% e)
+9.6e6 / 3.2e-4
+% f)
+log(2 * cos(pi/4))
+% g)
+sind(30)
+% h)
+atan(sqrt(3))
