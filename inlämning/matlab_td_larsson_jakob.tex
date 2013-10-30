@@ -19,12 +19,15 @@
     \rhead{\textsc{matlab} inlämming TD Oktober 2013}
 
     Hej och välkommna till hajk! Idag ska vi prata om inlämmningsuppgifter,
-    men inte vilka inlämmningsuppgifter som helst utan en i \textsc{matlab}.
+    men inte vilka inlämmningsuppgifter som helst utan en i \textsc{matlab}!
 
     \section*{Uppgift 1}
     Den här uppgiften finns det inte mycket att säga om.
-    \inputmatlabnt{utryck.m}
+    \begin{samepage}
+        \inputmatlabnt{utryck.m}
+    \end{samepage}
 
+    \pagebreak[2]
     \section*{Uppgift 2}
     En funktion baserad  på Heron's formel.
     Funktionen fungerar.
@@ -33,13 +36,17 @@
     \textsc{matlab}-koden
     bråkar lite med strängar som synes. Jag misstänker att \verb+anslistings+
     och \LaTeX har olika uppfattning om vilken teckenuppsättning som används.
-    \inputmatlabnt{heron.m}
+    \begin{samepage}
+        \inputmatlabnt{heron.m}
+    \end{samepage}
 
     \section*{Uppgift 3}
     Plotta tre olika icke triviala funktioner. I figur 3 ser vi graferna.
     Koden för det tre plottarna är väldigt lika, det skulle nog att gå att bryta
     ut till en gemensam funktion.
-    \inputmatlabnt{ex3.m}
+    \begin{samepage}
+        \inputmatlabnt{ex3.m}
+    \end{samepage}
     \begin{figure}
         \includegraphics[width=\textwidth]{ex3.png}
         \caption{Snygga grafer}
@@ -53,7 +60,9 @@
         \includegraphics[width=\textwidth]{ex4a.png}
         \caption{Sadelyta i färg}
     \end{figure}
-    \inputmatlabnt{ex4a.m}
+    \begin{samepage}
+        \inputmatlabnt{ex4a.m}
+    \end{samepage}
 
     \subsection*{b)}
     \begin{figure}
@@ -62,16 +71,23 @@
     \end{figure}
     Den här uppgiften var mer rättfram, att plotta i tre dimensioner fungerar
     precis som i två med \textsc{matlab}.
-    \inputmatlabnt{ex4b.m}
+    \begin{samepage}
+        \inputmatlabnt{ex4b.m}
+    \end{samepage}
 
+    \pagebreak[2]
     \section*{Uppgift 5}
     \begin{figure}
         \includegraphics[width=\textwidth]{ex5.png}
         \caption{funk5}
     \end{figure}
-    \inputmatlabnt{funk5.m}
-    \inputmatlabnt{ex5b.m}
+    \begin{samepage}
+        \inputmatlabnt{funk5.m}
+    \end{samepage}
     I Figur 5 ser vi den lite speciella \verb+funk5+.
+    \begin{samepage}
+        \inputmatlabnt{ex5b.m}
+    \end{samepage}
 
     \section*{Uppgift 6}
     En rekursivt definerad funktion som ger tal $n$ i Fibonaccis talföljd.
@@ -82,18 +98,23 @@
     Som standard är det maximala djupet satt till 500.
     Det betyder att \verb+fibonacci+ i praktiken oftast är definerad endast för
     $n \in \left\{ 1...499 \right\}$.
-    \inputmatlabnt{fibonacci.m}
+    \begin{samepage}
+        \inputmatlabnt{fibonacci.m}
+    \end{samepage}
 
     \section*{Uppgift 7}
     \begin{figure}
         \includegraphics[width=\textwidth]{ex7.png}
         \caption{Approx. av sinus}
     \end{figure}
-    Uppgiften är att skriva en funktion som beräknar en faklaurin-utveckling för
+    Uppgiften är att skriva en funktion som beräknar en maclaurin-utveckling för
     $\sin (x)$.
 
-    \inputmatlabnt{funk7.m}
+    \begin{samepage}
+        \inputmatlabnt{funk7.m}
+    \end{samepage}
 
+    \noindent
     En sådan funktion följer att väldigt vanlig mönster:
     \begin{enumerate}
         \item Ta en lista/vektor/följd av heltal.
@@ -102,13 +123,18 @@
     \end{enumerate}
     Så jag valde att skriva funktionen \verb+fsum+ som gör just detta.
     funktionen i sig är väldigt kort, det är i princip bara rad 10. Resten finns
-    för att ge lite felxibilitet i vilka argument funktionen tar.
-    \inputmatlabnt{fsum.m}
+    för att ge lite flexibilitet i vilka argument funktionen tar.
+    \begin{samepage}
+        \inputmatlabnt{fsum.m}
+    \end{samepage}
     I figur 5 kan man se resultatet. Det är lite svårt att urskilja de olika
     funktionerna i grafen. Den utveckling med 100 termer går inte att skilja
     från $\sin (x)$ på detta intervall.
-    \inputmatlabnt{test7.m}
+    \begin{samepage}
+        \inputmatlabnt{test7.m}
+    \end{samepage}
 
+    \pagebreak[2]
     \section*{Uppgift 8}
     I uppgiften var det specifierat att man skulle inplementera Bubblesort,
     men de kändes tråkigt. Så här följer istället den mycket coolare Quicksort
@@ -119,6 +145,8 @@
     I teorin finns dock inget som begränsar funktionen då rekursionssteget
     är det sista som händer i funktionen.
     \footnote{en.wikipedia.org/wiki/Tail\_call}
-    \inputmatlabnt{minsort.m}
+    \begin{samepage}
+        \inputmatlabnt{minsort.m}
+    \end{samepage}
 
 \end{document}
